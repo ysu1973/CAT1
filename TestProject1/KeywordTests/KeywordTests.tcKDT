@@ -2,5 +2,6 @@
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<child name="Test1" key="{6E29C4E6-93BD-425F-BD68-A01878D40D68}" path="Test1.tcKDTest" />
+		<child name="CheckNotification" key="{32EA03B5-BE51-4BC2-B79C-5379BC594CC6}" path="CheckNotification.tcKDTest" />
 	</children>
 </Root>
