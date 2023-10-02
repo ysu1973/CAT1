@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A24BFBB9-7E95-4ADC-8CC3-307D35D66CB9}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{4B31A9E1-023C-4C38-A3D4-45FF5AF64C07}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{0EE48FB3-4490-4B98-9F74-55DA54AAC1A1}">
+								<Image FileName="-306114201" Left="-8" Top="-8" Right="1928" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageGeorgiaLottery" Key="{CF06519C-46F4-4705-B4B6-3E80E40BA0D0}">
+								<Image FileName="-306114201" Left="0" Top="77" Right="1920" Bottom="1032" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://gasc1playdigital.dev.igt.com/en-us/home.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkLoginpopup" Key="{BB8F3DC1-A00A-4143-BFB1-81DA2DAB047D}">
+										<Image FileName="-306114201" Left="1316" Top="96" Right="1421" Bottom="123" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#loginPopup" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Sign In&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;GA Lottery Player Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;btn-login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountBarDesktop&apos;]//div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formLogin" Key="{4C38DFF2-EF2B-4C21-9272-DC9134476800}">
+										<Image FileName="-440029823" Left="1157" Top="230" Right="1425" Bottom="539" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &quot;Not a member? It&apos;s free to join!&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;player-login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountBarDesktop&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{46200F0F-E13D-494C-9C1B-D121221AA63C}">
+										<Image FileName="-440029823" Left="1177" Top="325" Right="1405" Bottom="360" />
+										<TypeInfo Item0="{67E39A92-384C-475F-97E7-670EFEE09E98}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmailAddress" Key="{958161D9-091F-483E-898D-C83D28C4EFD8}">
+										<Image FileName="-1731412024" Left="1177" Top="255" Right="1405" Bottom="290" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email Address&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#loginEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/input[@name=&apos;loginEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignIn" Key="{F314641C-97DF-4B48-BC36-4EF9C3D62FD0}">
+										<Image FileName="-610460404" Left="1177" Top="400" Right="1405" Bottom="427" />
+										<TypeInfo Item0="{EAEA8BDE-BC5F-422F-9116-6E5DB435E206}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//div/div/form/div/button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div/div/form/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;login&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@role=&apos;form&apos;]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRegister" Key="{A7350777-73F6-4DF5-95F9-A543963DE333}">
+										<Image FileName="-2005176744" Left="1177" Top="669" Right="1405" Bottom="696" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//div/form//a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountBarDesktop&apos;]//div[2]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/form/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageRegistration" Key="{E3F7C775-20A6-4230-BA67-8485586FCE8E}">
+								<Image FileName="-306114201" Left="0" Top="77" Right="1920" Bottom="1032" />
+								<TypeInfo Item0="{DAC64B30-A3FC-4110-8DC6-6ADA81A16296}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://gasc1playdigital.dev.igt.com/en-us/registration.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formConfirmregistration" Key="{802B13ED-B3FD-4F4C-B087-8B297AAE63B9}">
+										<Image FileName="2000476053" Left="319" Top="426" Right="1255" Bottom="2632" />
+										<Selectors>
+											<Selector>
+												<Value Value="#confirmRegistration" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;ENTER YOUR PERSONAL INFORMATION&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;registrationformNOWC&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstName" Key="{6EDECD1A-9C0C-4B4D-8CC4-C2FAB5FE08C9}">
+										<Image FileName="2000476053" Left="627" Top="527" Right="932" Bottom="562" />
+										<TypeInfo Item0="{67E39A92-384C-475F-97E7-670EFEE09E98}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;First Name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#firstName" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastname" Key="{15CCEFB0-6A9F-4F1C-B084-810B8FCE942D}">
+										<Image FileName="-147500042" Left="627" Top="602" Right="932" Bottom="637" />
+										<TypeInfo Item0="{67E39A92-384C-475F-97E7-670EFEE09E98}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#lastName" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[2]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[2]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;registrationStep1&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectSuffix" Key="{21C95CEB-7C90-4099-BAF5-CE57F3D2C454}">
+										<Image FileName="83163940" Left="627" Top="677" Right="932" Bottom="712" />
+										<TypeInfo Item0="{5F0CDB97-58FA-49DC-B443-D468ED5D69CE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#suffix" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//select[contains(@class, &apos;input-citizen-country&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;registrationStep1&apos;]//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmail" Key="{96A58D40-106E-448A-A4A3-29B401FE7E28}">
+										<Image FileName="1914835734" Left="627" Top="756" Right="932" Bottom="791" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#email" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[4]/input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[4]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;registrationStep1&apos;]//div[4]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputConfirmemail" Key="{565EDDF3-9CC4-4EF4-A7D5-55BA7C8C556A}">
+										<Image FileName="1355257536" Left="627" Top="831" Right="932" Bottom="866" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#confirmEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[5]/input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[5]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;registrationStep1&apos;]//div[5]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[5]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxUserPassword" Key="{CAD4BA3D-0845-4947-BB81-0F968DC4E1A7}">
+										<Image FileName="846435322" Left="627" Top="906" Right="932" Bottom="941" />
+										<TypeInfo Item0="{67E39A92-384C-475F-97E7-670EFEE09E98}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#user_password" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[6]/input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[6]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;registrationStep1&apos;]//div[6]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[6]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxConfirmPassword" Key="{0825C0D1-8492-47CE-A00C-0CD8AF8D09D4}">
+										<Image FileName="1355498245" Left="627" Top="538" Right="932" Bottom="573" />
+										<TypeInfo Item0="{67E39A92-384C-475F-97E7-670EFEE09E98}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#confirm_password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;confirm_password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[7]/input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[7]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;registrationStep1&apos;]//div[7]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[7]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="phoneinputBirthdayMonth" Key="{528B39B3-61D4-4CBC-9417-D617E0A495F7}">
+										<Image FileName="243249761" Left="628" Top="618" Right="673" Bottom="651" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#birthday_month" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;input-uniform--month&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//div[8]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="phoneinputBirthdayDay" Key="{B87CCEDD-49C7-46EE-ADF5-923027B11140}">
+										<Image FileName="603531790" Left="675" Top="618" Right="720" Bottom="651" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#birthday_day" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;input-uniform--day&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="phoneinputBirthdayYear" Key="{7F35739A-F33B-426C-91B9-C05A7CB224BE}">
+										<Image FileName="103272096" Left="725" Top="618" Right="780" Bottom="651" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#birthday_year" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;input-uniform--year&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectSecurityquestion1" Key="{E4031BCB-2B35-4098-B9A6-9C005F3EB2B0}">
+										<Image FileName="1809282062" Left="627" Top="329" Right="932" Bottom="364" />
+										<TypeInfo Item0="{5F0CDB97-58FA-49DC-B443-D468ED5D69CE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#securityQuestion1" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]/fieldset//div/select[contains(@class, &apos;input-citizen&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]//div/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]/fieldset//div/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxSecureanswer1" Key="{DF146DFF-A6E8-48E5-A3D2-C82F50389F87}">
+										<Image FileName="-1632030585" Left="627" Top="404" Right="932" Bottom="439" />
+										<TypeInfo Item0="{67E39A92-384C-475F-97E7-670EFEE09E98}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SecureAnswer1" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]/fieldset//div[2]/input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]/fieldset//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]/fieldset//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectSecurityquestion2" Key="{11857DE3-BF2D-47C1-8B6D-6A53DAACA546}">
+										<Image FileName="-1930750396" Left="627" Top="505" Right="932" Bottom="540" />
+										<TypeInfo Item0="{5F0CDB97-58FA-49DC-B443-D468ED5D69CE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#securityQuestion2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]/fieldset//select[contains(@class, &apos;input-citizen-country&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]//div[3]/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]/fieldset//div[3]/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxSecureanswer2" Key="{B09A78AB-E20E-498B-9F27-C4B02321F2EC}">
+										<Image FileName="-337531258" Left="627" Top="580" Right="932" Bottom="615" />
+										<TypeInfo Item0="{67E39A92-384C-475F-97E7-670EFEE09E98}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SecureAnswer2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]/fieldset//div[4]/input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]/fieldset//div[4]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]//div[4]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[@id=&apos;enableOnlinePurchaseSecurityQ&apos;]/fieldset//div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="fieldsetTermsOfUse" Key="{1C019930-C3C9-4509-B78C-BFBE336D0A2C}">
+										<Image FileName="-182703951" Left="319" Top="419" Right="1255" Bottom="646" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//fieldset[contains(., &apos;TERMS OF USE&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelIAcceptThe" Key="{8A258112-B501-417D-8D97-F89ECADC73B6}">
+										<Image FileName="-162058921" Left="627" Top="544" Right="916" Bottom="589" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(., &apos;I accept the&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset[3]//label[contains(@class, &apos;custom-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;registrationformNOWC&apos;]//fieldset[3]/div/div/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset[3]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSubmit" Key="{1878B076-65FE-438E-AD3F-2C053AA12ABB}">
+										<Image FileName="-801607593" Left="717" Top="609" Right="842" Bottom="645" />
+										<TypeInfo Item0="{EAEA8BDE-BC5F-422F-9116-6E5DB435E206}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;SUBMIT&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset[3]//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;confirmRegistration&apos;]//fieldset/div/div/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/fieldset[3]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinuebtn" Key="{806DEEA3-1D09-4C90-B657-00A01BA6C8D8}">
+										<Image FileName="155504066" Left="909" Top="377" Right="995" Bottom="404" />
+										<TypeInfo Item0="{EAEA8BDE-BC5F-422F-9116-6E5DB435E206}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#continueBtn" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;CONTINUE&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div[2]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSecondChance" Key="{6CCB3B3E-CABA-49D3-A0BE-BD4DF1F202B9}">
+								<Image FileName="-306114201" Left="0" Top="77" Right="1920" Bottom="1032" />
+								<TypeInfo Item0="{DAC64B30-A3FC-4110-8DC6-6ADA81A16296}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://gasc1playdigital.dev.igt.com/en-us/games/second-chance.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="link" Key="{D7F8A24D-2C40-4D0D-BB0E-5AA32C9C1F5F}">
+										<Image FileName="77973428" Left="1338" Top="103" Right="1376" Bottom="118" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;account-nav-player-menu-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountBarDesktop&apos;]//div[@role=&apos;button&apos;]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{5804EE5D-B7D1-4BB2-AF6A-71B336DC387D}">
+										<Image FileName="77973428" Left="1338" Top="91" Right="1376" Bottom="130" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[@role=&apos;button&apos;]//a/span[contains(@class, &apos;glyphicon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountBarDesktop&apos;]//div[@role=&apos;button&apos;]/div[2]/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyAccount" Key="{9F508569-2B6E-4416-A503-6F38D018C285}">
+										<Image FileName="1548250941" Left="1200" Top="129" Right="1376" Bottom="352" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//ul[contains(@class, &apos;dropdown-menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountBarDesktop&apos;]//div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMyNotifications" Key="{BB2630B7-AB49-4AA5-A1AC-0DD28757FEED}">
+										<Image FileName="1548250941" Left="1200" Top="240" Right="1376" Bottom="277" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[8]/a[contains(@class, &apos;dropdown-menu__player-menu-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountBarDesktop&apos;]//li[8]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{AC0EBDF7-861F-4824-A598-C52AF53FEEF3}">
+								<Image FileName="266879415" Left="0" Top="0" Right="334" Bottom="389" />
+								<TypeInfo Item0="{812FBB5B-AD49-44BB-B57F-FD453654096E}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save password?" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageMessagecenter" Key="{B38CF267-953B-4CB2-9167-82EAEEABC6FF}">
+								<Image FileName="-306114201" Left="0" Top="77" Right="1920" Bottom="1032" />
+								<TypeInfo Item0="{DAC64B30-A3FC-4110-8DC6-6ADA81A16296}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://gasc1playdigital.dev.igt.com/en-us/myaccount/messagecenter.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeSidenavigation" Key="{CDA1506E-C5CE-4FFF-A8B8-D68C43199EB5}">
+										<Image FileName="-2089163091" Left="299" Top="405" Right="529" Bottom="608" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sidenavigation" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/div[2]//ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMyNotifications" Key="{01CAB6D4-DEE2-42CD-8B62-4310BB825090}">
+										<Image FileName="-2089163091" Left="299" Top="522" Right="529" Bottom="551" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;My Notifications&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//ul/li[8]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkManageprofileSidenavMenuItem" Key="{900B3081-7FA6-4BAC-BB8A-55BAF42FD748}">
+										<Image FileName="-826716365" Left="299" Top="551" Right="529" Bottom="580" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#manageprofile-sidenav-menu-item-id" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Manage Profile&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//ul/li[9]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navGeorgiaLottery" Key="{1E63A5B1-E8C0-418F-84FF-82E91D4ED089}">
+										<Image FileName="-867436467" Left="0" Top="130" Right="1903" Bottom="193" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Benefitting Georgia&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/nav[@role=&apos;navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkGeorgiaLottery" Key="{7D3071A8-5B5C-4164-BACD-2B75ADE5ACE2}">
+										<Image FileName="-867436467" Left="298" Top="115" Right="428" Bottom="205" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/a[contains(@class, &apos;nav-logo&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pd-main-nav&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/nav/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGeorgiaLottery" Key="{12EA757A-8F5E-49D4-B943-20E17AAF0218}">
+										<Image FileName="-867436467" Left="298" Top="115" Right="428" Bottom="205" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Georgia - Lottery&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;sprite-ga-lottery-30a-bdr&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/nav//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMyProfile" Key="{2DEA2414-C57E-4E67-A5EA-1830E1AF0C68}">
+								<Image FileName="-306114201" Left="0" Top="77" Right="1920" Bottom="1032" />
+								<TypeInfo Item0="{DAC64B30-A3FC-4110-8DC6-6ADA81A16296}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://gasc1playdigital.dev.igt.com/en-us/myaccount/my-profile.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeSidenavigation" Key="{A486D17A-27FA-426E-B090-603B5C5DD745}">
+										<Image FileName="765682215" Left="299" Top="405" Right="529" Bottom="608" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sidenavigation" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMynotificationsSidenavMenuIt" Key="{6F73B2A1-D669-4835-81F4-B7C56021FCE0}">
+										<Image FileName="765682215" Left="299" Top="522" Right="529" Bottom="551" />
+										<TypeInfo Item0="{FD5F9F5E-2E35-42B1-A0B0-27F4384A1D68}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mynotifications-sidenav-menu-item-id" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;My Notifications&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//ul/li[8]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{E10D81B3-8B63-4B20-ACB7-BB21045E4FE0}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{7B3BCD52-57B4-479E-9E61-CC9248C641F5}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{9767F045-9E32-49C3-BB3E-C12587604705}">
+										<TypeInfo Item0="{F807B555-2164-43C1-B489-A62CC2A09C3A}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{4B31A9E1-023C-4C38-A3D4-45FF5AF64C07}">
+			<Child Name="BrowserWindow" Owner="{0EE48FB3-4490-4B98-9F74-55DA54AAC1A1}" />
+			<Child Name="pageGeorgiaLottery" Owner="{CF06519C-46F4-4705-B4B6-3E80E40BA0D0}">
+				<Child Name="linkLoginpopup" Owner="{BB8F3DC1-A00A-4143-BFB1-81DA2DAB047D}">
+					<Child Name="formLogin" Owner="{4C38DFF2-EF2B-4C21-9272-DC9134476800}">
+						<Child Name="passwordboxPassword" Owner="{46200F0F-E13D-494C-9C1B-D121221AA63C}" />
+						<Child Name="emailinputEmailAddress" Owner="{958161D9-091F-483E-898D-C83D28C4EFD8}" />
+						<Child Name="buttonSignIn" Owner="{F314641C-97DF-4B48-BC36-4EF9C3D62FD0}" />
+						<Child Name="linkRegister" Owner="{A7350777-73F6-4DF5-95F9-A543963DE333}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageRegistration" Owner="{E3F7C775-20A6-4230-BA67-8485586FCE8E}">
+				<Child Name="formConfirmregistration" Owner="{802B13ED-B3FD-4F4C-B087-8B297AAE63B9}">
+					<Child Name="textboxFirstName" Owner="{6EDECD1A-9C0C-4B4D-8CC4-C2FAB5FE08C9}" />
+					<Child Name="textboxLastname" Owner="{15CCEFB0-6A9F-4F1C-B084-810B8FCE942D}" />
+					<Child Name="selectSuffix" Owner="{21C95CEB-7C90-4099-BAF5-CE57F3D2C454}" />
+					<Child Name="emailinputEmail" Owner="{96A58D40-106E-448A-A4A3-29B401FE7E28}" />
+					<Child Name="emailinputConfirmemail" Owner="{565EDDF3-9CC4-4EF4-A7D5-55BA7C8C556A}" />
+					<Child Name="passwordboxUserPassword" Owner="{CAD4BA3D-0845-4947-BB81-0F968DC4E1A7}" />
+					<Child Name="passwordboxConfirmPassword" Owner="{0825C0D1-8492-47CE-A00C-0CD8AF8D09D4}" />
+					<Child Name="phoneinputBirthdayMonth" Owner="{528B39B3-61D4-4CBC-9417-D617E0A495F7}" />
+					<Child Name="phoneinputBirthdayDay" Owner="{B87CCEDD-49C7-46EE-ADF5-923027B11140}" />
+					<Child Name="phoneinputBirthdayYear" Owner="{7F35739A-F33B-426C-91B9-C05A7CB224BE}" />
+					<Child Name="selectSecurityquestion1" Owner="{E4031BCB-2B35-4098-B9A6-9C005F3EB2B0}" />
+					<Child Name="passwordboxSecureanswer1" Owner="{DF146DFF-A6E8-48E5-A3D2-C82F50389F87}" />
+					<Child Name="selectSecurityquestion2" Owner="{11857DE3-BF2D-47C1-8B6D-6A53DAACA546}" />
+					<Child Name="passwordboxSecureanswer2" Owner="{B09A78AB-E20E-498B-9F27-C4B02321F2EC}" />
+					<Child Name="fieldsetTermsOfUse" Owner="{1C019930-C3C9-4509-B78C-BFBE336D0A2C}" />
+					<Child Name="buttonSubmit" Owner="{1878B076-65FE-438E-AD3F-2C053AA12ABB}" />
+				</Child>
+				<Child Name="labelIAcceptThe" Owner="{8A258112-B501-417D-8D97-F89ECADC73B6}" />
+				<Child Name="buttonContinuebtn" Owner="{806DEEA3-1D09-4C90-B657-00A01BA6C8D8}" />
+			</Child>
+			<Child Name="pageSecondChance" Owner="{6CCB3B3E-CABA-49D3-A0BE-BD4DF1F202B9}">
+				<Child Name="link" Owner="{D7F8A24D-2C40-4D0D-BB0E-5AA32C9C1F5F}">
+					<Child Name="textnode" Owner="{5804EE5D-B7D1-4BB2-AF6A-71B336DC387D}" />
+				</Child>
+				<Child Name="textnodeMyAccount" Owner="{9F508569-2B6E-4416-A503-6F38D018C285}">
+					<Child Name="linkMyNotifications" Owner="{BB2630B7-AB49-4AA5-A1AC-0DD28757FEED}" />
+				</Child>
+			</Child>
+			<Child Name="wndChrome_WidgetWin_1" Owner="{AC0EBDF7-861F-4824-A598-C52AF53FEEF3}" />
+			<Child Name="pageMessagecenter" Owner="{B38CF267-953B-4CB2-9167-82EAEEABC6FF}">
+				<Child Name="textnodeSidenavigation" Owner="{CDA1506E-C5CE-4FFF-A8B8-D68C43199EB5}">
+					<Child Name="linkMyNotifications" Owner="{01CAB6D4-DEE2-42CD-8B62-4310BB825090}" />
+					<Child Name="linkManageprofileSidenavMenuItem" Owner="{900B3081-7FA6-4BAC-BB8A-55BAF42FD748}" />
+				</Child>
+				<Child Name="navGeorgiaLottery" Owner="{1E63A5B1-E8C0-418F-84FF-82E91D4ED089}">
+					<Child Name="linkGeorgiaLottery" Owner="{7D3071A8-5B5C-4164-BACD-2B75ADE5ACE2}">
+						<Child Name="textnodeGeorgiaLottery" Owner="{12EA757A-8F5E-49D4-B943-20E17AAF0218}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageMyProfile" Owner="{2DEA2414-C57E-4E67-A5EA-1830E1AF0C68}">
+				<Child Name="textnodeSidenavigation" Owner="{A486D17A-27FA-426E-B090-603B5C5DD745}">
+					<Child Name="linkMynotificationsSidenavMenuIt" Owner="{6F73B2A1-D669-4835-81F4-B7C56021FCE0}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{E10D81B3-8B63-4B20-ACB7-BB21045E4FE0}">
+			<Child Name="wndShell_TrayWnd" Owner="{7B3BCD52-57B4-479E-9E61-CC9248C641F5}">
+				<Child Name="DesktopWindowXamlSource" Owner="{9767F045-9E32-49C3-BB3E-C12587604705}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
